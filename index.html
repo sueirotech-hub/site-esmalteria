@@ -94,6 +94,7 @@ h3{font:400 .95rem/1.4 Jost,system-ui,sans-serif;letter-spacing:.05em;margin-bot
 .info dt:first-child{margin-top:0}
 .info dd{color:var(--soft)}
 .info a:not(.lk){color:var(--ink);text-underline-offset:4px;text-decoration-color:var(--line)}
+.info a.gps-link{display:inline-flex;align-items:flex-start;gap:.8rem;color:var(--ink);text-decoration:none;line-height:1.65;transition:color .3s ease}.info a.gps-link:hover,.info a.gps-link:focus-visible{color:var(--rose)}.gps-link .gps-pin{width:1.25rem;height:1.25rem;flex:none;margin-top:.25rem;color:var(--rose)}.gps-link small{display:block;margin-top:.6rem;color:var(--rose);font-size:.78rem;letter-spacing:.05em}.map-wrap .gps-pin{width:1.1rem;height:1.1rem;opacity:1}
 .map-wrap{margin-top:2rem;text-align:center}.map-wrap iframe{display:block;width:100%;height:clamp(280px,42vw,420px);border:1px solid var(--line);border-radius:24px;background:var(--frame)}.map-wrap .lk{margin-top:1.3rem}.info dd .lk{margin-top:.8rem}
 .fin{text-align:center}
 .fin p{max-width:28rem;margin:0 auto 2rem;color:var(--soft)}
@@ -329,12 +330,12 @@ h2.in .w{opacity:1;transform:none;filter:none}
     </dl>
     <dl class="cc r R" id="local" data-s=".12">
       <dt class="script">endereço</dt>
-      <dd>Rua dos Pinus, s/n, loja 2<br>entre a Connectcell e a Sorvetes Nevask<br>Campos de Holambra, SP<br><a href="https://www.google.com/maps/dir/?api=1&destination=Rua%20dos%20Pinus%2C%20Campos%20de%20Holambra%2C%20Paranapanema%2C%20SP" target="_blank" rel="noopener">abrir rota no GPS <svg viewBox="0 0 24 8" aria-hidden="true"><path d="M0 4H22M18 .8 22 4 18 7.2" fill="none" stroke="currentColor" stroke-width="1"/></svg></a></dd>
+      <dd><a class="gps-link" href="https://www.google.com/maps/dir/?api=1&destination=Rua%20dos%20Pinus%2C%20Campos%20de%20Holambra%2C%20Paranapanema%2C%20SP" target="_blank" rel="noopener" aria-label="Abrir no GPS: Rua dos Pinus, s/n, loja 2, Campos de Holambra"><svg class="gps-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Rua dos Pinus, s/n, loja 2<br>entre a Connectcell e a Sorvetes Nevask<br>Campos de Holambra, SP<small>abrir no GPS</small></span></a></dd>
       <dt class="script">contato</dt>
       <dd><a href="tel:+5514991530165">(14) 99153-0165</a><br><a href="https://www.instagram.com/pauli.esmalteria/" target="_blank" rel="noopener">@pauli.esmalteria</a></dd>
     </dl>
   </div>
-  <div class="map-wrap r"><iframe title="Mapa da Pauli Esmalteria em Campos de Holambra" src="https://www.google.com/maps?q=Rua%20dos%20Pinus%2C%20Campos%20de%20Holambra%2C%20Paranapanema%2C%20SP&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><a class="lk" href="https://www.google.com/maps/dir/?api=1&destination=Rua%20dos%20Pinus%2C%20Campos%20de%20Holambra%2C%20Paranapanema%2C%20SP" target="_blank" rel="noopener">iniciar rota no GPS <svg viewBox="0 0 24 8" aria-hidden="true"><path d="M0 4H22M18 .8 22 4 18 7.2" fill="none" stroke="currentColor" stroke-width="1"/></svg></a></div>
+  <div class="map-wrap r"><iframe title="Mapa da Pauli Esmalteria em Campos de Holambra" src="https://www.google.com/maps?q=Rua%20dos%20Pinus%2C%20Campos%20de%20Holambra%2C%20Paranapanema%2C%20SP&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><a class="lk" href="https://www.google.com/maps/dir/?api=1&destination=Rua%20dos%20Pinus%2C%20Campos%20de%20Holambra%2C%20Paranapanema%2C%20SP" target="_blank" rel="noopener">iniciar rota no GPS <svg class="gps-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></a></div>
 </section>
 
 <section class="wrap fin">
