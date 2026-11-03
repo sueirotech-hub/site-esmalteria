@@ -131,8 +131,8 @@ h3{font:400 .95rem/1.4 Jost,system-ui,sans-serif;letter-spacing:.05em;margin-bot
 .nlogo:hover{scale:1.06}
 
 /* 4. Logo: começa a desenhar depois da cortina e brilha suavemente depois de pronta */
-.hero .lg{--o:var(--off)!important}
-.nlogo .lg{--o:calc(var(--off) + .55s)!important}
+.hero .lg{--o:2.05s!important}
+.nlogo .lg{--o:2.25s!important}
 .hc .lg{animation:lgl 5s ease-in-out calc(var(--off) + 3.4s) infinite}
 @keyframes lgl{50%{filter:drop-shadow(0 5px 11px rgba(164,95,109,.3))}}
 
@@ -154,10 +154,10 @@ h2.in .w{opacity:1;transform:none;filter:none}
 
 /* 6. Fotos do hero: entram uma a uma (escala + giro + foco) e brilham */
 .cd{animation:cin 1.5s var(--ez) calc(var(--off) + var(--ci,.5s)) backwards,fl var(--fd,8s) ease-in-out infinite}
-.stage figure:nth-of-type(1){--ci:.35s}
-.stage figure:nth-of-type(2){--ci:.7s}
-.stage figure:nth-of-type(3){--ci:1.05s}
-@keyframes cin{from{opacity:0;scale:.8;rotate:-8deg;filter:blur(12px)}}
+.stage figure:nth-of-type(1){--ci:1.25s}
+.stage figure:nth-of-type(2){--ci:1.7s}
+.stage figure:nth-of-type(3){--ci:2.15s}
+@keyframes cin{from{opacity:0;scale:.72;rotate:-8deg;filter:blur(18px)}to{opacity:1;scale:1;rotate:0deg;filter:blur(0)}}
 .stage{translate:0 var(--sy,0px)}
 .hc{translate:0 var(--hy,0px)}
 .sk{position:absolute;left:var(--x);top:var(--y);width:var(--s);height:var(--s);margin:calc(var(--s)/-2) 0 0 calc(var(--s)/-2);z-index:5;pointer-events:none;opacity:0;background:radial-gradient(circle,#fff 0 22%,#ebb7c1 75%);clip-path:polygon(50% 0,60% 40%,100% 50%,60% 60%,50% 100%,40% 60%,0 50%,40% 40%);animation:tw 3.4s ease-in-out calc(var(--off) + 2.2s + var(--dl)) infinite}
