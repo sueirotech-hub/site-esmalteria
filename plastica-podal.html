@@ -1,64 +1,12 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#fbf7f6">
-  <meta name="description" content="Conheça os benefícios do spa dos pés com plástica podal da Pauli Esmalteria em Campos de Holambra.">
-  <title>Plástica podal | Pauli Esmalteria</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-  <style>
-    :root{--bg:#fbf7f6;--ink:#1a1517;--muted:#6a6064;--rose:#a45f6d;--line:#eadde0;--frame:#f3e6e9;scroll-behavior:smooth}
-    *{box-sizing:border-box}body{margin:0;background:radial-gradient(50rem 34rem at 95% 0,#f4e4e8,transparent 65%),var(--bg);color:var(--ink);font:300 1rem/1.7 Jost,system-ui,sans-serif;overflow-x:hidden}
-    a{color:inherit}a:focus-visible{outline:2px solid var(--rose);outline-offset:4px}.script{font-family:'Pinyon Script',cursive;font-weight:400;letter-spacing:.015em}
-    .nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;max-width:1180px;margin:auto;padding:1.25rem clamp(1.25rem,4vw,2rem)}
-    .brand{text-decoration:none;display:flex;align-items:baseline;gap:.6rem;white-space:nowrap}.brand strong{font:400 2.4rem/1 'Pinyon Script',cursive}.brand span{font-size:.63rem;letter-spacing:.2em}
-    .navlinks{display:flex;align-items:center;gap:clamp(.8rem,2.5vw,2rem);flex-wrap:wrap}.navlinks a,.link{text-decoration:none;font-size:.86rem;letter-spacing:.04em}.navlinks a:hover,.link:hover{color:var(--rose)}
-    .pill{display:inline-flex;align-items:center;justify-content:center;gap:.7rem;border:1px solid #fff;border-radius:100px;padding:.8rem 1.35rem;background:#fff;box-shadow:0 12px 30px -18px #63414a;text-decoration:none;font-size:.84rem;white-space:nowrap}
-    .pill.dark{background:var(--ink);color:#fff;border-color:var(--ink)}.pill:hover{transform:translateY(-2px);box-shadow:0 18px 34px -18px #63414a}.pill{transition:transform .3s,box-shadow .3s}
-    main{max-width:1180px;margin:auto;padding:0 clamp(1.25rem,4vw,2rem) 5rem}.hero{display:grid;grid-template-columns:1.04fr .96fr;align-items:center;gap:clamp(2rem,6vw,5rem);min-height:min(760px,88svh);padding:3rem 0 5rem}
-    .eyebrow{color:var(--rose);letter-spacing:.17em;text-transform:uppercase;font-size:.72rem;font-weight:500}.hero h1{font:400 clamp(4.1rem,9vw,8rem)/.93 'Pinyon Script',cursive;margin:1.1rem 0 1.6rem;max-width:650px}.hero p{max-width:32rem;color:var(--muted);font-size:clamp(1rem,1.6vw,1.12rem)}.hero-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem}
-    .hero-photo{position:relative;max-width:500px;margin:auto;width:100%;padding:10px;border-radius:30px;background:var(--frame);box-shadow:0 30px 65px -36px #76535d;transform:rotate(2deg)}.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:401/404;object-fit:contain;border-radius:22px}.photo-note{position:absolute;right:-1.2rem;bottom:1.2rem;background:#fff;padding:.65rem 1rem;border-radius:20px;font-size:.78rem;box-shadow:0 12px 32px -18px #63414a}
-    section{padding:clamp(4rem,9vw,7rem) 0;border-top:1px solid var(--line)}h2{font:400 clamp(3.5rem,7vw,6rem)/1 'Pinyon Script',cursive;margin:.3rem 0 1.4rem}.lead{color:var(--muted);max-width:42rem;margin:0 0 2rem}
-    .benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.benefit{background:#fff;border:1px solid #fff;border-radius:24px;padding:clamp(1.5rem,3vw,2.3rem);box-shadow:0 14px 40px -30px #795963}.benefit .n{color:var(--rose);font:400 2rem 'Pinyon Script',cursive}.benefit h3{font-weight:400;font-size:1.08rem;line-height:1.4;margin:1.3rem 0 .65rem}.benefit p{color:var(--muted);font-size:.94rem;margin:0}
-    .gallery{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,4rem);align-items:center}.gallery figure,.care figure{margin:0;background:var(--frame);border-radius:26px;padding:10px}.gallery img,.care img{display:block;width:100%;height:auto;border-radius:18px}.gallery figcaption,.care figcaption{padding:.9rem .5rem .25rem;color:var(--muted);font-size:.82rem}.gallery-copy p{color:var(--muted);max-width:30rem}.gallery-copy .pill{margin-top:1rem}
-    .care{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(1.5rem,5vw,4rem);align-items:center}.care figure{max-width:490px}.care-copy p{color:var(--muted);max-width:33rem}.care-copy p+p{margin-top:1rem}
-    .final{text-align:center;padding-bottom:2rem}.final h2{margin-bottom:1rem}.final p{color:var(--muted);max-width:34rem;margin:0 auto 2rem}footer{border-top:1px solid var(--line);padding:2rem 0;color:var(--muted);font-size:.82rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .reveal{opacity:0;transform:translateY(30px);transition:opacity 1s ease,transform 1s cubic-bezier(.2,.7,.2,1)}.reveal.visible{opacity:1;transform:none}.benefit:nth-child(2){transition-delay:.12s}.benefit:nth-child(3){transition-delay:.24s}
-    @media(max-width:760px){.hero,.gallery,.care{grid-template-columns:1fr}.hero{min-height:0;padding:3rem 0 4rem}.hero-photo{max-width:530px;transform:rotate(1deg)}.hero-photo img{height:auto;max-height:620px;object-fit:contain}.benefits{grid-template-columns:1fr}.care figure{max-width:none}.navlinks a:not(.pill){display:none}.photo-note{right:.4rem}}
-    @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.pill{transition:none}}
-  </style>
-  <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="0;url=index.html#plastica-podal">
+<title>Plástica podal | Pauli Esmalteria</title>
+<link rel="canonical" href="index.html#plastica-podal">
+<script>location.replace('index.html#plastica-podal')</script>
 </head>
-<body>
-  <nav class="nav" aria-label="Navegação principal">
-    <a class="brand" href="index.html" aria-label="Pauli Esmalteria, voltar ao início"><strong>Pauli</strong><span>ESMALTERIA</span></a>
-    <div class="navlinks"><a href="index.html">voltar ao site</a><a href="#beneficios">benefícios</a><a href="#resultados">resultados</a><a class="pill" href="https://wa.me/5514991530165?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20spa%20dos%20p%C3%A9s%20com%20pl%C3%A1stica%20podal." target="_blank" rel="noopener">agendar</a></div>
-  </nav>
-  <main>
-    <header class="hero">
-      <div class="reveal"><span class="eyebrow">spa dos pés · Pauli Esmalteria</span><h1>plástica podal</h1><p>Um cuidado estético para pés mais macios, hidratados e com aparência renovada. Um momento dedicado a você, com atenção especial aos calcanhares.</p><div class="hero-actions"><a class="pill dark" href="#beneficios">conhecer os benefícios ↓</a><a class="pill" href="#resultados">ver resultados</a></div></div>
-      <figure class="hero-photo reveal"><img src="assets/plastica-resultado.jpg" width="401" height="404" alt="Calcanhares lado a lado, identificados como antes e depois"><figcaption class="photo-note">antes &amp; depois</figcaption></figure>
-    </header>
-    <section id="beneficios"><span class="eyebrow reveal">cuidado que se sente</span><h2 class="reveal">benefícios para os seus pés</h2><p class="lead reveal">A plástica podal é um tratamento estético que ajuda a deixar a pele dos pés mais macia, hidratada e com aparência bem cuidada.</p>
-      <div class="benefits">
-        <article class="benefit reveal"><span class="n">01</span><h3>remove células mortas</h3><p>Ajuda a eliminar o excesso de pele ressecada e a suavizar áreas ásperas e calosidades, especialmente nos calcanhares.</p></article>
-        <article class="benefit reveal"><span class="n">02</span><h3>hidratação profunda</h3><p>Ajuda a recuperar a maciez e o aspecto saudável da pele.</p></article>
-        <article class="benefit reveal"><span class="n">03</span><h3>melhora a aparência</h3><p>Proporciona uma pele mais lisinha, bonita e bem cuidada.</p></article>
-      </div>
-    </section>
-    <section class="gallery" id="resultados">
-      <div class="gallery-copy reveal"><span class="eyebrow">antes &amp; depois</span><h2>o cuidado faz diferença</h2><p>Os pés ressecados merecem atenção. Com a remoção delicada da pele morta e a hidratação, o resultado é uma aparência mais macia e renovada.</p><p>As imagens mostram exemplos reais de antes e depois. O resultado pode variar de pessoa para pessoa.</p><a class="pill dark" href="https://wa.me/5514991530165?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20spa%20dos%20p%C3%A9s%20com%20pl%C3%A1stica%20podal." target="_blank" rel="noopener">agendar meu cuidado</a></div>
-      <figure class="reveal"><img src="assets/plastica-antes-depois.jpg" width="398" height="805" loading="lazy" alt="Comparação vertical do calcanhar antes e depois do cuidado estético"><figcaption>Comparativo de resultado.</figcaption></figure>
-    </section>
-    <section class="care">
-      <figure class="reveal"><img src="assets/plastica-cuidados.jpg" width="401" height="402" loading="lazy" alt="Calcanhar com pele ressecada e indicação de cuidado"><figcaption>O cuidado contínuo e a hidratação em casa também fazem parte da rotina dos pés.</figcaption></figure>
-      <div class="care-copy reveal"><span class="eyebrow">atenção aos detalhes</span><h2>mais conforto, mais cuidado</h2><p>Áreas ásperas e calcanhares ressecados podem ganhar uma aparência mais suave com a plástica podal.</p><p>Depois do atendimento, manter os pés hidratados em casa ajuda a preservar a maciez.</p></div>
-    </section>
-    <section class="final reveal"><h2>reserve um momento para seus pés</h2><p>Converse com a Pauli e agende o spa dos pés com plástica podal.</p><a class="pill dark" href="https://wa.me/5514991530165?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20spa%20dos%20p%C3%A9s%20com%20pl%C3%A1stica%20podal." target="_blank" rel="noopener">agendar pelo WhatsApp</a></section>
-    <footer><span>© 2026 Pauli Esmalteria · Campos de Holambra, SP</span><a class="link" href="index.html">voltar ao site</a></footer>
-  </main>
-  <script>const observer=new IntersectionObserver(entries=>entries.forEach(entry=>entry.target.classList.toggle('visible',entry.isIntersecting)),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));</script>
-</body>
+<body><p>A plástica podal agora está no <a href="index.html#plastica-podal">site da Pauli Esmalteria</a>.</p></body>
 </html>
