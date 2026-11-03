@@ -102,13 +102,15 @@ h3{font:400 .95rem/1.4 Jost,system-ui,sans-serif;letter-spacing:.05em;margin-bot
 .podal-photo{margin:0;background:var(--frame);padding:10px;border-radius:26px;box-shadow:0 20px 45px -30px rgba(70,35,45,.3)}
 .podal-photo img{display:block;width:100%;height:auto;border-radius:18px}
 .podal-photo figcaption{padding:.7rem .3rem .1rem;color:var(--soft);font-size:.82rem}
-.podal-benefits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;margin:2.5rem 0 3.5rem}
-.podal-benefits .cc{padding:1.6rem}.podal-benefits .n{font-family:'Pinyon Script',cursive;margin-bottom:1rem}.podal-benefits p{color:var(--soft);font-size:.92rem}
+.podal-benefits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:2.5rem 0 3.5rem;padding:2rem .8rem;border-radius:28px}
+.podal-benefits article{padding:.3rem clamp(1rem,2.5vw,2rem)}.podal-benefits article+article{border-left:1px solid var(--line)}
+.podal-benefits h3{font-size:1.02rem;margin:0 0 .75rem}.podal-benefits h3::before{content:"";display:block;width:32px;height:1px;background:var(--rose);margin:0 0 1rem}
+.podal-benefits p{color:var(--soft);font-size:.92rem}
 .podal-showcase{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,5rem);align-items:center}
 .podal-showcase .vertical{max-width:360px;margin:auto}.podal-copy .script{font-size:clamp(3rem,5vw,4.7rem);line-height:1.1;margin-bottom:1rem}.podal-copy p+p{margin-top:1rem}
 .podal-care{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center;margin-top:3rem}.podal-care .podal-photo{max-width:470px}
 .podal-cta{margin-top:1.7rem}
-@media(max-width:860px){.podal-intro,.podal-showcase,.podal-care,.podal-benefits{grid-template-columns:1fr}.podal-intro .podal-photo{max-width:500px}.podal-benefits{gap:1rem}.podal-care .podal-photo{order:1}.podal-care .podal-copy{order:2}}
+@media(max-width:860px){.podal-intro,.podal-showcase,.podal-care,.podal-benefits{grid-template-columns:1fr}.podal-intro .podal-photo{max-width:500px}.podal-benefits{padding:1.3rem 1.6rem}.podal-benefits article{padding:1.2rem .2rem}.podal-benefits article+article{border-left:0;border-top:1px solid var(--line)}.podal-care .podal-photo{order:1}.podal-care .podal-copy{order:2}}
 .fin{text-align:center}
 .fin p{max-width:28rem;margin:0 auto 2rem;color:var(--soft)}
 .ft{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem;max-width:1000px;margin:clamp(6rem,13vw,9rem) auto 0;padding:2rem 1.5rem 2.5rem;border-top:1px solid var(--line);color:var(--soft);font-size:.82rem}
@@ -307,10 +309,10 @@ h2.in .w{opacity:1;transform:none;filter:none}
     <div class="r"><h3 class="script">um cuidado para os seus pés</h3><p>A plástica podal é um tratamento estético que proporciona pés mais macios, hidratados e com aparência renovada.</p><div class="podal-cta"><a class="lk" href="https://wa.me/5514991530165?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20spa%20dos%20p%C3%A9s%20com%20pl%C3%A1stica%20podal." target="_blank" rel="noopener">agendar spa dos pés <svg viewBox="0 0 24 8" aria-hidden="true"><path d="M0 4H22M18 .8 22 4 18 7.2" fill="none" stroke="currentColor" stroke-width="1"/></svg></a></div></div>
     <figure class="podal-photo r R" data-s=".12"><img src="assets/plastica-resultado.jpg" width="401" height="404" loading="lazy" alt="Antes e depois lado a lado do cuidado com os calcanhares"><figcaption>Antes e depois da plástica podal.</figcaption></figure>
   </div>
-  <div class="podal-benefits">
-    <article class="cc r"><div class="n">01</div><h3>remove células mortas</h3><p>Ajuda a eliminar o excesso de pele ressecada e a suavizar áreas ásperas e calosidades, especialmente nos calcanhares.</p></article>
-    <article class="cc r R" data-s=".12"><div class="n">02</div><h3>hidratação profunda</h3><p>Ajuda a recuperar a maciez e o aspecto saudável da pele.</p></article>
-    <article class="cc r" data-s=".24"><div class="n">03</div><h3>melhora a aparência</h3><p>Proporciona uma pele mais lisinha, bonita e bem cuidada.</p></article>
+  <div class="podal-benefits cc r">
+    <article><h3>remove células mortas</h3><p>Ajuda a eliminar o excesso de pele ressecada e a suavizar áreas ásperas e calosidades, especialmente nos calcanhares.</p></article>
+    <article><h3>hidratação profunda</h3><p>Ajuda a recuperar a maciez e o aspecto saudável da pele.</p></article>
+    <article><h3>melhora a aparência</h3><p>Proporciona uma pele mais lisinha, bonita e bem cuidada.</p></article>
   </div>
   <div class="podal-showcase">
     <figure class="podal-photo vertical r"><img src="assets/plastica-antes-depois.jpg" width="398" height="805" loading="lazy" alt="Comparativo vertical de calcanhar antes e depois do cuidado estético"><figcaption>Outro resultado de antes e depois. Os resultados podem variar.</figcaption></figure>
